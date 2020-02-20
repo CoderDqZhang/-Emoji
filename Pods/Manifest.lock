@@ -1,0 +1,16 @@
+PODS:
+  - ISEmojiView (0.2.6)
+
+DEPENDENCIES:
+  - ISEmojiView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ISEmojiView
+
+SPEC CHECKSUMS:
+  ISEmojiView: f7cd94a6c93307f429ec5da001293d0b02247f03
+
+PODFILE CHECKSUM: d8080f7e83ea310ec6f4db4e1eb28e499727eaab
+
+COCOAPODS: 1.8.4

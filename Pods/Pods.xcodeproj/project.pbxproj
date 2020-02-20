@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0501985D5549F90B5FCCD0DE930CAC02 /* ISEmojiList_iOS10.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA1CA64A40D49B997F21E1A57398DE6D /* ISEmojiList_iOS10.plist */; };
+		051D3326FA346BAFFACBE588358B4F63 /* ic_objects.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A1E4907DF791A3BE753D5750AAC5E6 /* ic_objects.png */; };
+		0D3BE35881A3C43B8E4DCEB467E321F9 /* ic_emojiDelete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B02DB43CF26B25BB6EFDD30158AA38A2 /* ic_emojiDelete@3x.png */; };
+		0F8256362202BC604436ECD5304167E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		14C3495A4839B20F471F52E7B41EDEFD /* ic_activity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D448D98C6DCA8FB0C0788AC58C7A4055 /* ic_activity@2x.png */; };
+		1728559FC0B3B7CC791D4DD4EB682377 /* ISEmojiView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */; };
+		18219B93B802365E3E0CC5020F8FBE6D /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F600A95389A9F3CF9FA437DA420F58FC /* EmojiView.swift */; };
+		1A75617D7122FDE5C351A0115D53631D /* ic_food_drink@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB765B2880A87ECBD20A1427E4DBC9E /* ic_food_drink@3x.png */; };
+		1D052331856FC11EA98A08BF0B1DCDC5 /* Pods-CommentTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0620395DA4103B9D55753E36C371BFCB /* Pods-CommentTools-dummy.m */; };
+		1D41DCDFE1210CE21B4D1198FB932D14 /* ic_activity.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2B56BA8F23B425C38A614AE0A74668 /* ic_activity.png */; };
+		27DAA895DA299EEFB869DB4B0F02A089 /* ic_flags@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81542DC0D52057CA76845D5F16532D14 /* ic_flags@2x.png */; };
+		2C64C724E269A066584CF27583041A80 /* ic_activity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E21E979B65F50507213C2225559A78 /* ic_activity@3x.png */; };
+		2CA269C50CB9F05BCE7414F4ABFF030D /* ic_symbols.png in Resources */ = {isa = PBXBuildFile; fileRef = 45E617443CBFEA506DC9836C0FA3459C /* ic_symbols.png */; };
+		32D0109E5C3C0DA88F3094FBBB6EEC54 /* ic_food_drink.png in Resources */ = {isa = PBXBuildFile; fileRef = BD144DFB5399491BACCEFC5A81D75E9D /* ic_food_drink.png */; };
+		35C9B4C20B1F0E5E9BB8AE7180DE7138 /* ISEmojiList_iOS11.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7F300189E49D5FA2CB034013BC924CD /* ISEmojiList_iOS11.plist */; };
+		37C2E2BD90B642AAD6BE9E360C0DE326 /* ic_emojiDelete.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EEDDD39BEF45E68B014E1049F5C267F /* ic_emojiDelete.png */; };
+		3CC24AF35E33BEC1E5D4909B8B282E6A /* ic_symbols@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E6B08A892170E709D1542A77D17026 /* ic_symbols@3x.png */; };
+		3CF5EF66C42E96515009A38D42E05DE1 /* ic_recents@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 26DA2A901FAF0D52E033BF78F24402AF /* ic_recents@2x.png */; };
+		3F994B0FAC7AD28086221054CE8B9C87 /* RecentEmojisManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8484E5CBBC975674F666A0AEFA67FE2 /* RecentEmojisManager.swift */; };
+		41745463C45AE3D150ADB129153C9533 /* EmojiPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8008B93398C1E07D438CB2495232E066 /* EmojiPopView.swift */; };
+		41D412A7A897E692DEBCA6ACBAD5A8D2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F25061FDA4317A3237FE68453742E89 /* Constants.swift */; };
+		4378BA270FE7EF43ADF12F8DAE439765 /* Pods-CommentTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCEA619E67549D1AE5799D5699F09E0B /* Pods-CommentTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49DB9153136B8745195042E4EDF45386 /* ic_recents.png in Resources */ = {isa = PBXBuildFile; fileRef = 7379F4F723D840A478B3F99E1A87F4A1 /* ic_recents.png */; };
+		4EBC67FE5F7F690F6454997C5479C2B7 /* PageControlBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EEFCA1EAD3852FA7A60223F4626517 /* PageControlBottomView.swift */; };
+		52F1280488AA724F7E6A871720D94BFB /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D07B67C57FD5A25C87229A464AEF89 /* Bundle.swift */; };
+		574C1632C5001567AF15F55414B0FA2C /* ic_flags.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0ADFC044A0E6E6343BD759CAA9077B /* ic_flags.png */; };
+		5D025697F9352ED61242DA9C986BAD18 /* EmojiCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E9323B8E51FF757B1E882A44F341CC /* EmojiCollectionView.xib */; };
+		602A25D65B323F302AE598F02BC409D7 /* ISEmojiView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031A536EF0238570135CC1FF7A6AC5EB /* ISEmojiView-dummy.m */; };
+		63DAFA7E746A9CD6B20EB34585B4F0E2 /* ic_smileys_people@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44610222D8D64C8A43F7BB6B15B646D /* ic_smileys_people@3x.png */; };
+		6BDBAA54FED30E05BB158554C0FC16BE /* ic_travel_places@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC08699760CFF12E941316F09E2D4AC4 /* ic_travel_places@3x.png */; };
+		6C18AD4C702B7AEC25ADD5B17DC5CA9A /* ic_objects@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 217A43A358919C9547897542EC791A0B /* ic_objects@2x.png */; };
+		70A3F28D0ADB766FB0569B6712016C5E /* ic_objects@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48899B9E514B8F8B4089B3EB6996167E /* ic_objects@3x.png */; };
+		71C677B5D40EBF3D96C7F3FFAF8C62F7 /* ic_animals_nature@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE94F3FD306AC84718B56027483CD42A /* ic_animals_nature@3x.png */; };
+		7F92E8F5C51531738149979C2F8E3B3B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6206918623777203A0FABC99BE685B77 /* CategoryCell.swift */; };
+		8D63BCBEFB02002C66CFAB1C029E7B03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93CF9831D0C7F5F04B641AA668FFEA76 /* Images.xcassets */; };
+		8F0FEC892120219F855A266E2458F929 /* ic_flags@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30BB189BC658A8270F3CF448B7A78291 /* ic_flags@3x.png */; };
+		92E763CED325EFB8AD2990DB90BD2DE8 /* EmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2337774FD5215FA78A3566BBFB0D8F /* EmojiCollectionView.swift */; };
+		9534145B5C6C42DF15C8724AFC8BFDEF /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 48FE67F9CC66EBDDCB4A50EFF228880D /* Views */; };
+		96B08E42718F454631349E03754F719D /* ic_smileys_people@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608F432D0827640A030FCD9605D59AE8 /* ic_smileys_people@2x.png */; };
+		97A435A6890C808BB339EAF50DCE4592 /* ISEmojiList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BAD6945EDAE842EAEF9560BFAD27C3 /* ISEmojiList.plist */; };
+		9B13D26CE1356655399D45C28996E65B /* ic_animals_nature.png in Resources */ = {isa = PBXBuildFile; fileRef = 26C9A2FCBFF01AF36077D2DAB02666A2 /* ic_animals_nature.png */; };
+		9D15BB2CC3D91C6757B9895B9858136B /* ic_food_drink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18394F73F0F4C634EDB4F13B3B3F4EEC /* ic_food_drink@2x.png */; };
+		AD4F222B45B41F085473CB0A44AB1676 /* ISEmojiView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62220F6D98C516C4D7EDA66473760417 /* ISEmojiView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B185D2739E39415031299EF95CE32D7C /* CategoriesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DDCC46FC9E69665853F4C9E8C4871 /* CategoriesBottomView.swift */; };
+		B530C8ABF16258D6277908C6F2366E16 /* KeyboardSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F6923C4EE1AF6533131E982DF8CB9 /* KeyboardSettings.swift */; };
+		B782476F7A3512F5F761AB54F0DC3729 /* EmojiCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B647F1672505969F2862FB1BF1481B /* EmojiCategory.swift */; };
+		BE0C991E7629174D45B6E06D7E0EDD7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C2B0DB390F097E614478DFA707548EF3 /* ic_symbols@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B9BBA0E55F767B5D6E955036BA1843 /* ic_symbols@2x.png */; };
+		D2EEE7F61382FE248753A8B3B33DE8D5 /* ic_travel_places.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8990F589C0FD01A52B483ED2BF19FC /* ic_travel_places.png */; };
+		DA6C693329346530751949A648540F4E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92371EF8188DE8C1B2D9A59FB3757EA4 /* Category.swift */; };
+		DE3DB6AC1B210982F1E38DB45C4820C2 /* EmojiLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6CE6CB641B560BFD0988B539C5772FA /* EmojiLoader.swift */; };
+		E5A4AB5B225AE7D7A1A60CC487C26332 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F52B85079CF229364F905FE68F818 /* Emoji.swift */; };
+		E680CF07EE9FE831317DD5C1EB5DADA8 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 13D41E145A99CA6D6999DBAE376DBF02 /* Images */; };
+		E6F65F1066E956C77D61BFD0CE0CA75D /* ic_recents@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 285ABD90B3AC1C69DB39154EBB6D8D97 /* ic_recents@3x.png */; };
+		E72C1C206BC754B120420075F6F073C9 /* ic_emojiDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC099060A5B89B96C4931AE8E49EC8 /* ic_emojiDelete@2x.png */; };
+		EFCF4717326A0CD1E9161D8016C44C9D /* PageControlBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8870FD67E19A3411CC3031A959A7D674 /* PageControlBottomView.xib */; };
+		F0741B7CE2DD0ED8CAF0A43D02B8719F /* ic_travel_places@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79E874A6F0B8A16EEBDC4028BFBC2023 /* ic_travel_places@2x.png */; };
+		F1B8BC5E189745D1320375ED9550C783 /* ic_animals_nature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 025029FADBBAE2631A125997D1F2C7F2 /* ic_animals_nature@2x.png */; };
+		F65FFD1F3D8C4A7BC6AC377CF6240D0D /* ic_smileys_people.png in Resources */ = {isa = PBXBuildFile; fileRef = 34AC6205954B7B5D5C79236AD847DCEA /* ic_smileys_people.png */; };
+		FAC8B6A92B32DC21D62EDE84C54C5E9B /* CategoriesBottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DAA3AD42DBDD1AEAAA0B0F117419138 /* CategoriesBottomView.xib */; };
+		FF17943AFA1C6CD73E4CA81677AE9E1F /* EmojiCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FD3D20FD58CC634F08A8475D2B94AC /* EmojiCollectionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18DFE233D3F7D1A3F28A31DC35C6CE96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B638CEEAF1B992479ACE12618DB82603;
+			remoteInfo = "ISEmojiView-ISEmojiView";
+		};
+		F330C0C1147D74D3F7F8CDE679971C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37CC13C3A41A42A9CDA6684CE5BD73B;
+			remoteInfo = ISEmojiView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025029FADBBAE2631A125997D1F2C7F2 /* ic_animals_nature@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@2x.png"; path = "Source/Assets/Images/ic_animals_nature@2x.png"; sourceTree = "<group>"; };
+		031A536EF0238570135CC1FF7A6AC5EB /* ISEmojiView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISEmojiView-dummy.m"; sourceTree = "<group>"; };
+		03E21E979B65F50507213C2225559A78 /* ic_activity@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@3x.png"; path = "Source/Assets/Images/ic_activity@3x.png"; sourceTree = "<group>"; };
+		0620395DA4103B9D55753E36C371BFCB /* Pods-CommentTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommentTools-dummy.m"; sourceTree = "<group>"; };
+		0A26BA10240BF21AF190A35356581E78 /* Pods-CommentTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentTools.release.xcconfig"; sourceTree = "<group>"; };
+		0B8990F589C0FD01A52B483ED2BF19FC /* ic_travel_places.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_travel_places.png; path = Source/Assets/Images/ic_travel_places.png; sourceTree = "<group>"; };
+		0F695C9209545B334CBEB6CC40B00D2E /* ISEmojiView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-prefix.pch"; sourceTree = "<group>"; };
+		107F6923C4EE1AF6533131E982DF8CB9 /* KeyboardSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardSettings.swift; path = Source/Classes/Models/KeyboardSettings.swift; sourceTree = "<group>"; };
+		13D41E145A99CA6D6999DBAE376DBF02 /* Images */ = {isa = PBXFileReference; includeInIndex = 1; name = Images; path = Source/Assets/Images; sourceTree = "<group>"; };
+		16EEFCA1EAD3852FA7A60223F4626517 /* PageControlBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageControlBottomView.swift; path = Source/Classes/Views/BottomViews/PageControlBottomView/PageControlBottomView.swift; sourceTree = "<group>"; };
+		18394F73F0F4C634EDB4F13B3B3F4EEC /* ic_food_drink@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@2x.png"; path = "Source/Assets/Images/ic_food_drink@2x.png"; sourceTree = "<group>"; };
+		1CA776275C4F2B1725028BCBF557D699 /* Pods-CommentTools-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommentTools-frameworks.sh"; sourceTree = "<group>"; };
+		217A43A358919C9547897542EC791A0B /* ic_objects@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@2x.png"; path = "Source/Assets/Images/ic_objects@2x.png"; sourceTree = "<group>"; };
+		23B647F1672505969F2862FB1BF1481B /* EmojiCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCategory.swift; path = Source/Classes/Models/EmojiCategory.swift; sourceTree = "<group>"; };
+		24D07B67C57FD5A25C87229A464AEF89 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bundle.swift; path = Source/Classes/Extensions/Bundle.swift; sourceTree = "<group>"; };
+		25FD3D20FD58CC634F08A8475D2B94AC /* EmojiCollectionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionCell.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionCell.swift; sourceTree = "<group>"; };
+		26C9A2FCBFF01AF36077D2DAB02666A2 /* ic_animals_nature.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_animals_nature.png; path = Source/Assets/Images/ic_animals_nature.png; sourceTree = "<group>"; };
+		26DA2A901FAF0D52E033BF78F24402AF /* ic_recents@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@2x.png"; path = "Source/Assets/Images/ic_recents@2x.png"; sourceTree = "<group>"; };
+		285ABD90B3AC1C69DB39154EBB6D8D97 /* ic_recents@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_recents@3x.png"; path = "Source/Assets/Images/ic_recents@3x.png"; sourceTree = "<group>"; };
+		30BB189BC658A8270F3CF448B7A78291 /* ic_flags@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@3x.png"; path = "Source/Assets/Images/ic_flags@3x.png"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34AC6205954B7B5D5C79236AD847DCEA /* ic_smileys_people.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_smileys_people.png; path = Source/Assets/Images/ic_smileys_people.png; sourceTree = "<group>"; };
+		377F52B85079CF229364F905FE68F818 /* Emoji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Emoji.swift; path = Source/Classes/Models/Emoji.swift; sourceTree = "<group>"; };
+		396CAAED94D1FA84864AE58FBD9387C9 /* Pods-CommentTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommentTools.modulemap"; sourceTree = "<group>"; };
+		3EA6A00D99EADC2EF6F25BCDBD629E93 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ISEmojiView-ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		42B9BBA0E55F767B5D6E955036BA1843 /* ic_symbols@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@2x.png"; path = "Source/Assets/Images/ic_symbols@2x.png"; sourceTree = "<group>"; };
+		42E9323B8E51FF757B1E882A44F341CC /* EmojiCollectionView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EmojiCollectionView.xib; path = Source/Assets/Views/EmojiCollectionView.xib; sourceTree = "<group>"; };
+		45E617443CBFEA506DC9836C0FA3459C /* ic_symbols.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_symbols.png; path = Source/Assets/Images/ic_symbols.png; sourceTree = "<group>"; };
+		48899B9E514B8F8B4089B3EB6996167E /* ic_objects@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_objects@3x.png"; path = "Source/Assets/Images/ic_objects@3x.png"; sourceTree = "<group>"; };
+		48FE67F9CC66EBDDCB4A50EFF228880D /* Views */ = {isa = PBXFileReference; includeInIndex = 1; name = Views; path = Source/Assets/Views; sourceTree = "<group>"; };
+		503DA7A0D388AA0DEE0FF08C7252618C /* ISEmojiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ISEmojiView.framework; path = ISEmojiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EEDDD39BEF45E68B014E1049F5C267F /* ic_emojiDelete.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_emojiDelete.png; path = Source/Assets/Images/ic_emojiDelete.png; sourceTree = "<group>"; };
+		608F432D0827640A030FCD9605D59AE8 /* ic_smileys_people@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@2x.png"; path = "Source/Assets/Images/ic_smileys_people@2x.png"; sourceTree = "<group>"; };
+		6206918623777203A0FABC99BE685B77 /* CategoryCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoryCell.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoryCell.swift; sourceTree = "<group>"; };
+		62220F6D98C516C4D7EDA66473760417 /* ISEmojiView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISEmojiView-umbrella.h"; sourceTree = "<group>"; };
+		64A1E4907DF791A3BE753D5750AAC5E6 /* ic_objects.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_objects.png; path = Source/Assets/Images/ic_objects.png; sourceTree = "<group>"; };
+		71BAD6945EDAE842EAEF9560BFAD27C3 /* ISEmojiList.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList.plist; path = Source/Assets/ISEmojiList.plist; sourceTree = "<group>"; };
+		7255EF5C4EFFDDF89DEEE637C69CE2B4 /* Pods-CommentTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentTools-Info.plist"; sourceTree = "<group>"; };
+		7379F4F723D840A478B3F99E1A87F4A1 /* ic_recents.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_recents.png; path = Source/Assets/Images/ic_recents.png; sourceTree = "<group>"; };
+		79E874A6F0B8A16EEBDC4028BFBC2023 /* ic_travel_places@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@2x.png"; path = "Source/Assets/Images/ic_travel_places@2x.png"; sourceTree = "<group>"; };
+		8008B93398C1E07D438CB2495232E066 /* EmojiPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiPopView.swift; path = Source/Classes/Views/EmojiPopView/EmojiPopView.swift; sourceTree = "<group>"; };
+		81542DC0D52057CA76845D5F16532D14 /* ic_flags@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_flags@2x.png"; path = "Source/Assets/Images/ic_flags@2x.png"; sourceTree = "<group>"; };
+		8870FD67E19A3411CC3031A959A7D674 /* PageControlBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PageControlBottomView.xib; path = Source/Assets/Views/PageControlBottomView.xib; sourceTree = "<group>"; };
+		889DDCC46FC9E69665853F4C9E8C4871 /* CategoriesBottomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CategoriesBottomView.swift; path = Source/Classes/Views/BottomViews/CategoriesBottomView/CategoriesBottomView.swift; sourceTree = "<group>"; };
+		8DAA3AD42DBDD1AEAAA0B0F117419138 /* CategoriesBottomView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CategoriesBottomView.xib; path = Source/Assets/Views/CategoriesBottomView.xib; sourceTree = "<group>"; };
+		8E0233331E89E0C185A7F47ED080DE9A /* Pods_CommentTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CommentTools.framework; path = "Pods-CommentTools.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F25061FDA4317A3237FE68453742E89 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Classes/Helpers/Constants.swift; sourceTree = "<group>"; };
+		92371EF8188DE8C1B2D9A59FB3757EA4 /* Category.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Category.swift; path = Source/Classes/Models/Category.swift; sourceTree = "<group>"; };
+		92A3B97DDEB18322D1023F847C90B4F2 /* ISEmojiView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISEmojiView.modulemap; sourceTree = "<group>"; };
+		93CF9831D0C7F5F04B641AA668FFEA76 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Source/Assets/Images.xcassets; sourceTree = "<group>"; };
+		9BBC099060A5B89B96C4931AE8E49EC8 /* ic_emojiDelete@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@2x.png"; path = "Source/Assets/Images/ic_emojiDelete@2x.png"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA0ADFC044A0E6E6343BD759CAA9077B /* ic_flags.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_flags.png; path = Source/Assets/Images/ic_flags.png; sourceTree = "<group>"; };
+		AC08699760CFF12E941316F09E2D4AC4 /* ic_travel_places@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_travel_places@3x.png"; path = "Source/Assets/Images/ic_travel_places@3x.png"; sourceTree = "<group>"; };
+		AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISEmojiView.xcconfig; sourceTree = "<group>"; };
+		AFB765B2880A87ECBD20A1427E4DBC9E /* ic_food_drink@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_food_drink@3x.png"; path = "Source/Assets/Images/ic_food_drink@3x.png"; sourceTree = "<group>"; };
+		B02DB43CF26B25BB6EFDD30158AA38A2 /* ic_emojiDelete@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_emojiDelete@3x.png"; path = "Source/Assets/Images/ic_emojiDelete@3x.png"; sourceTree = "<group>"; };
+		BA1CA64A40D49B997F21E1A57398DE6D /* ISEmojiList_iOS10.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS10.plist; path = Source/Assets/ISEmojiList_iOS10.plist; sourceTree = "<group>"; };
+		BD144DFB5399491BACCEFC5A81D75E9D /* ic_food_drink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_food_drink.png; path = Source/Assets/Images/ic_food_drink.png; sourceTree = "<group>"; };
+		C5E6B08A892170E709D1542A77D17026 /* ic_symbols@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_symbols@3x.png"; path = "Source/Assets/Images/ic_symbols@3x.png"; sourceTree = "<group>"; };
+		C7F300189E49D5FA2CB034013BC924CD /* ISEmojiList_iOS11.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = ISEmojiList_iOS11.plist; path = Source/Assets/ISEmojiList_iOS11.plist; sourceTree = "<group>"; };
+		CB2337774FD5215FA78A3566BBFB0D8F /* EmojiCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiCollectionView.swift; path = Source/Classes/Views/EmojiCollectionView/EmojiCollectionView.swift; sourceTree = "<group>"; };
+		CB2B56BA8F23B425C38A614AE0A74668 /* ic_activity.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = ic_activity.png; path = Source/Assets/Images/ic_activity.png; sourceTree = "<group>"; };
+		CE59A2FB8459CB2FF6030572DDE206FA /* Pods-CommentTools-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommentTools-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D448D98C6DCA8FB0C0788AC58C7A4055 /* ic_activity@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_activity@2x.png"; path = "Source/Assets/Images/ic_activity@2x.png"; sourceTree = "<group>"; };
+		D6CE6CB641B560BFD0988B539C5772FA /* EmojiLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiLoader.swift; path = Source/Classes/Helpers/EmojiLoader.swift; sourceTree = "<group>"; };
+		DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ISEmojiView.bundle; path = "ISEmojiView-ISEmojiView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEBB167767B82282F13676260B978D1 /* ISEmojiView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ISEmojiView-Info.plist"; sourceTree = "<group>"; };
+		DC6DDEF88421F09AE3F13E547CBA3F01 /* Pods-CommentTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommentTools.debug.xcconfig"; sourceTree = "<group>"; };
+		E3959FD47C300EFAE7AD277F99DF1C17 /* Pods-CommentTools-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommentTools-acknowledgements.plist"; sourceTree = "<group>"; };
+		E44610222D8D64C8A43F7BB6B15B646D /* ic_smileys_people@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_smileys_people@3x.png"; path = "Source/Assets/Images/ic_smileys_people@3x.png"; sourceTree = "<group>"; };
+		E8484E5CBBC975674F666A0AEFA67FE2 /* RecentEmojisManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecentEmojisManager.swift; path = Source/Classes/Helpers/RecentEmojisManager.swift; sourceTree = "<group>"; };
+		F600A95389A9F3CF9FA437DA420F58FC /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Source/Classes/Views/EmojiView/EmojiView.swift; sourceTree = "<group>"; };
+		FCEA619E67549D1AE5799D5699F09E0B /* Pods-CommentTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommentTools-umbrella.h"; sourceTree = "<group>"; };
+		FE94F3FD306AC84718B56027483CD42A /* ic_animals_nature@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_animals_nature@3x.png"; path = "Source/Assets/Images/ic_animals_nature@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D258D1898A6C665286178E5D1B1973C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38477895F9D06FFAD473AD6324D91103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0C991E7629174D45B6E06D7E0EDD7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E18893CA13D2BFDAD29A2DBB0FD3BF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8256362202BC604436ECD5304167E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E14CEBBDEB73C9A19ABEC77FD1FDED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */,
+				503DA7A0D388AA0DEE0FF08C7252618C /* ISEmojiView.framework */,
+				8E0233331E89E0C185A7F47ED080DE9A /* Pods_CommentTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3219018C0CB8A505EF3E4895614331CB /* Pods-CommentTools */ = {
+			isa = PBXGroup;
+			children = (
+				396CAAED94D1FA84864AE58FBD9387C9 /* Pods-CommentTools.modulemap */,
+				CE59A2FB8459CB2FF6030572DDE206FA /* Pods-CommentTools-acknowledgements.markdown */,
+				E3959FD47C300EFAE7AD277F99DF1C17 /* Pods-CommentTools-acknowledgements.plist */,
+				0620395DA4103B9D55753E36C371BFCB /* Pods-CommentTools-dummy.m */,
+				1CA776275C4F2B1725028BCBF557D699 /* Pods-CommentTools-frameworks.sh */,
+				7255EF5C4EFFDDF89DEEE637C69CE2B4 /* Pods-CommentTools-Info.plist */,
+				FCEA619E67549D1AE5799D5699F09E0B /* Pods-CommentTools-umbrella.h */,
+				DC6DDEF88421F09AE3F13E547CBA3F01 /* Pods-CommentTools.debug.xcconfig */,
+				0A26BA10240BF21AF190A35356581E78 /* Pods-CommentTools.release.xcconfig */,
+			);
+			name = "Pods-CommentTools";
+			path = "Target Support Files/Pods-CommentTools";
+			sourceTree = "<group>";
+		};
+		3F7C624A4F0C770B46CFAD4CE827E3E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92A3B97DDEB18322D1023F847C90B4F2 /* ISEmojiView.modulemap */,
+				AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */,
+				031A536EF0238570135CC1FF7A6AC5EB /* ISEmojiView-dummy.m */,
+				DBEBB167767B82282F13676260B978D1 /* ISEmojiView-Info.plist */,
+				0F695C9209545B334CBEB6CC40B00D2E /* ISEmojiView-prefix.pch */,
+				62220F6D98C516C4D7EDA66473760417 /* ISEmojiView-umbrella.h */,
+				3EA6A00D99EADC2EF6F25BCDBD629E93 /* ResourceBundle-ISEmojiView-ISEmojiView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ISEmojiView";
+			sourceTree = "<group>";
+		};
+		42C65ED1639331257A0A739210040825 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1075380E3B979A372AA7D470AD5FC59 /* ISEmojiView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B8507D7C26BFA70B0B90E9CDA756A5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3219018C0CB8A505EF3E4895614331CB /* Pods-CommentTools */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81DEE1CC3B4F8711F15F0D9D9EEBC723 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DAA3AD42DBDD1AEAAA0B0F117419138 /* CategoriesBottomView.xib */,
+				42E9323B8E51FF757B1E882A44F341CC /* EmojiCollectionView.xib */,
+				CB2B56BA8F23B425C38A614AE0A74668 /* ic_activity.png */,
+				D448D98C6DCA8FB0C0788AC58C7A4055 /* ic_activity@2x.png */,
+				03E21E979B65F50507213C2225559A78 /* ic_activity@3x.png */,
+				26C9A2FCBFF01AF36077D2DAB02666A2 /* ic_animals_nature.png */,
+				025029FADBBAE2631A125997D1F2C7F2 /* ic_animals_nature@2x.png */,
+				FE94F3FD306AC84718B56027483CD42A /* ic_animals_nature@3x.png */,
+				5EEDDD39BEF45E68B014E1049F5C267F /* ic_emojiDelete.png */,
+				9BBC099060A5B89B96C4931AE8E49EC8 /* ic_emojiDelete@2x.png */,
+				B02DB43CF26B25BB6EFDD30158AA38A2 /* ic_emojiDelete@3x.png */,
+				AA0ADFC044A0E6E6343BD759CAA9077B /* ic_flags.png */,
+				81542DC0D52057CA76845D5F16532D14 /* ic_flags@2x.png */,
+				30BB189BC658A8270F3CF448B7A78291 /* ic_flags@3x.png */,
+				BD144DFB5399491BACCEFC5A81D75E9D /* ic_food_drink.png */,
+				18394F73F0F4C634EDB4F13B3B3F4EEC /* ic_food_drink@2x.png */,
+				AFB765B2880A87ECBD20A1427E4DBC9E /* ic_food_drink@3x.png */,
+				64A1E4907DF791A3BE753D5750AAC5E6 /* ic_objects.png */,
+				217A43A358919C9547897542EC791A0B /* ic_objects@2x.png */,
+				48899B9E514B8F8B4089B3EB6996167E /* ic_objects@3x.png */,
+				7379F4F723D840A478B3F99E1A87F4A1 /* ic_recents.png */,
+				26DA2A901FAF0D52E033BF78F24402AF /* ic_recents@2x.png */,
+				285ABD90B3AC1C69DB39154EBB6D8D97 /* ic_recents@3x.png */,
+				34AC6205954B7B5D5C79236AD847DCEA /* ic_smileys_people.png */,
+				608F432D0827640A030FCD9605D59AE8 /* ic_smileys_people@2x.png */,
+				E44610222D8D64C8A43F7BB6B15B646D /* ic_smileys_people@3x.png */,
+				45E617443CBFEA506DC9836C0FA3459C /* ic_symbols.png */,
+				42B9BBA0E55F767B5D6E955036BA1843 /* ic_symbols@2x.png */,
+				C5E6B08A892170E709D1542A77D17026 /* ic_symbols@3x.png */,
+				0B8990F589C0FD01A52B483ED2BF19FC /* ic_travel_places.png */,
+				79E874A6F0B8A16EEBDC4028BFBC2023 /* ic_travel_places@2x.png */,
+				AC08699760CFF12E941316F09E2D4AC4 /* ic_travel_places@3x.png */,
+				13D41E145A99CA6D6999DBAE376DBF02 /* Images */,
+				93CF9831D0C7F5F04B641AA668FFEA76 /* Images.xcassets */,
+				71BAD6945EDAE842EAEF9560BFAD27C3 /* ISEmojiList.plist */,
+				BA1CA64A40D49B997F21E1A57398DE6D /* ISEmojiList_iOS10.plist */,
+				C7F300189E49D5FA2CB034013BC924CD /* ISEmojiList_iOS11.plist */,
+				8870FD67E19A3411CC3031A959A7D674 /* PageControlBottomView.xib */,
+				48FE67F9CC66EBDDCB4A50EFF228880D /* Views */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1075380E3B979A372AA7D470AD5FC59 /* ISEmojiView */ = {
+			isa = PBXGroup;
+			children = (
+				24D07B67C57FD5A25C87229A464AEF89 /* Bundle.swift */,
+				889DDCC46FC9E69665853F4C9E8C4871 /* CategoriesBottomView.swift */,
+				92371EF8188DE8C1B2D9A59FB3757EA4 /* Category.swift */,
+				6206918623777203A0FABC99BE685B77 /* CategoryCell.swift */,
+				8F25061FDA4317A3237FE68453742E89 /* Constants.swift */,
+				377F52B85079CF229364F905FE68F818 /* Emoji.swift */,
+				23B647F1672505969F2862FB1BF1481B /* EmojiCategory.swift */,
+				25FD3D20FD58CC634F08A8475D2B94AC /* EmojiCollectionCell.swift */,
+				CB2337774FD5215FA78A3566BBFB0D8F /* EmojiCollectionView.swift */,
+				D6CE6CB641B560BFD0988B539C5772FA /* EmojiLoader.swift */,
+				8008B93398C1E07D438CB2495232E066 /* EmojiPopView.swift */,
+				F600A95389A9F3CF9FA437DA420F58FC /* EmojiView.swift */,
+				107F6923C4EE1AF6533131E982DF8CB9 /* KeyboardSettings.swift */,
+				16EEFCA1EAD3852FA7A60223F4626517 /* PageControlBottomView.swift */,
+				E8484E5CBBC975674F666A0AEFA67FE2 /* RecentEmojisManager.swift */,
+				81DEE1CC3B4F8711F15F0D9D9EEBC723 /* Resources */,
+				3F7C624A4F0C770B46CFAD4CE827E3E9 /* Support Files */,
+			);
+			name = ISEmojiView;
+			path = ISEmojiView;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				42C65ED1639331257A0A739210040825 /* Pods */,
+				26E14CEBBDEB73C9A19ABEC77FD1FDED /* Products */,
+				7B8507D7C26BFA70B0B90E9CDA756A5D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50915EAFE5D2F25D3EE20FA71C7EE7A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4F222B45B41F085473CB0A44AB1676 /* ISEmojiView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C887156BB0923F8531ADC27F94F11ADA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4378BA270FE7EF43ADF12F8DAE439765 /* Pods-CommentTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45E16B7FDCBC0D5A4B30322BF701B3D7 /* Pods-CommentTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC268474BA28ACCC77002F2F7D919B63 /* Build configuration list for PBXNativeTarget "Pods-CommentTools" */;
+			buildPhases = (
+				C887156BB0923F8531ADC27F94F11ADA /* Headers */,
+				68D9D95EFBB021C7445D353CB55148FB /* Sources */,
+				38477895F9D06FFAD473AD6324D91103 /* Frameworks */,
+				425692E232A41FE1420E2E7270FB5CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EDEF9ABCB0D8B45FF5D7BEDA7FFB8C /* PBXTargetDependency */,
+			);
+			name = "Pods-CommentTools";
+			productName = "Pods-CommentTools";
+			productReference = 8E0233331E89E0C185A7F47ED080DE9A /* Pods_CommentTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B37CC13C3A41A42A9CDA6684CE5BD73B /* ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333B42D6F63A8CE3E7737D6BA0907E72 /* Build configuration list for PBXNativeTarget "ISEmojiView" */;
+			buildPhases = (
+				50915EAFE5D2F25D3EE20FA71C7EE7A8 /* Headers */,
+				2C75458BAC4A4120554A969515C433EA /* Sources */,
+				E18893CA13D2BFDAD29A2DBB0FD3BF39 /* Frameworks */,
+				F6129EAC06C5059192BA64BA2CE42B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45640E9E1D807A44F168183DE517F97F /* PBXTargetDependency */,
+			);
+			name = ISEmojiView;
+			productName = ISEmojiView;
+			productReference = 503DA7A0D388AA0DEE0FF08C7252618C /* ISEmojiView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B638CEEAF1B992479ACE12618DB82603 /* ISEmojiView-ISEmojiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B09F5D445B43FA1D38BDEE1BD9A0C2DD /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */;
+			buildPhases = (
+				35BD60603EEC373A0331DF02207F05A3 /* Sources */,
+				0D258D1898A6C665286178E5D1B1973C /* Frameworks */,
+				A1746B5B05CA3C639C8B9A9C4DD78F18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ISEmojiView-ISEmojiView";
+			productName = "ISEmojiView-ISEmojiView";
+			productReference = DBB02C34A28521860A3647146E937055 /* ISEmojiView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 26E14CEBBDEB73C9A19ABEC77FD1FDED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37CC13C3A41A42A9CDA6684CE5BD73B /* ISEmojiView */,
+				B638CEEAF1B992479ACE12618DB82603 /* ISEmojiView-ISEmojiView */,
+				45E16B7FDCBC0D5A4B30322BF701B3D7 /* Pods-CommentTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425692E232A41FE1420E2E7270FB5CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1746B5B05CA3C639C8B9A9C4DD78F18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC8B6A92B32DC21D62EDE84C54C5E9B /* CategoriesBottomView.xib in Resources */,
+				5D025697F9352ED61242DA9C986BAD18 /* EmojiCollectionView.xib in Resources */,
+				1D41DCDFE1210CE21B4D1198FB932D14 /* ic_activity.png in Resources */,
+				14C3495A4839B20F471F52E7B41EDEFD /* ic_activity@2x.png in Resources */,
+				2C64C724E269A066584CF27583041A80 /* ic_activity@3x.png in Resources */,
+				9B13D26CE1356655399D45C28996E65B /* ic_animals_nature.png in Resources */,
+				F1B8BC5E189745D1320375ED9550C783 /* ic_animals_nature@2x.png in Resources */,
+				71C677B5D40EBF3D96C7F3FFAF8C62F7 /* ic_animals_nature@3x.png in Resources */,
+				37C2E2BD90B642AAD6BE9E360C0DE326 /* ic_emojiDelete.png in Resources */,
+				E72C1C206BC754B120420075F6F073C9 /* ic_emojiDelete@2x.png in Resources */,
+				0D3BE35881A3C43B8E4DCEB467E321F9 /* ic_emojiDelete@3x.png in Resources */,
+				574C1632C5001567AF15F55414B0FA2C /* ic_flags.png in Resources */,
+				27DAA895DA299EEFB869DB4B0F02A089 /* ic_flags@2x.png in Resources */,
+				8F0FEC892120219F855A266E2458F929 /* ic_flags@3x.png in Resources */,
+				32D0109E5C3C0DA88F3094FBBB6EEC54 /* ic_food_drink.png in Resources */,
+				9D15BB2CC3D91C6757B9895B9858136B /* ic_food_drink@2x.png in Resources */,
+				1A75617D7122FDE5C351A0115D53631D /* ic_food_drink@3x.png in Resources */,
+				051D3326FA346BAFFACBE588358B4F63 /* ic_objects.png in Resources */,
+				6C18AD4C702B7AEC25ADD5B17DC5CA9A /* ic_objects@2x.png in Resources */,
+				70A3F28D0ADB766FB0569B6712016C5E /* ic_objects@3x.png in Resources */,
+				49DB9153136B8745195042E4EDF45386 /* ic_recents.png in Resources */,
+				3CF5EF66C42E96515009A38D42E05DE1 /* ic_recents@2x.png in Resources */,
+				E6F65F1066E956C77D61BFD0CE0CA75D /* ic_recents@3x.png in Resources */,
+				F65FFD1F3D8C4A7BC6AC377CF6240D0D /* ic_smileys_people.png in Resources */,
+				96B08E42718F454631349E03754F719D /* ic_smileys_people@2x.png in Resources */,
+				63DAFA7E746A9CD6B20EB34585B4F0E2 /* ic_smileys_people@3x.png in Resources */,
+				2CA269C50CB9F05BCE7414F4ABFF030D /* ic_symbols.png in Resources */,
+				C2B0DB390F097E614478DFA707548EF3 /* ic_symbols@2x.png in Resources */,
+				3CC24AF35E33BEC1E5D4909B8B282E6A /* ic_symbols@3x.png in Resources */,
+				D2EEE7F61382FE248753A8B3B33DE8D5 /* ic_travel_places.png in Resources */,
+				F0741B7CE2DD0ED8CAF0A43D02B8719F /* ic_travel_places@2x.png in Resources */,
+				6BDBAA54FED30E05BB158554C0FC16BE /* ic_travel_places@3x.png in Resources */,
+				E680CF07EE9FE831317DD5C1EB5DADA8 /* Images in Resources */,
+				8D63BCBEFB02002C66CFAB1C029E7B03 /* Images.xcassets in Resources */,
+				97A435A6890C808BB339EAF50DCE4592 /* ISEmojiList.plist in Resources */,
+				0501985D5549F90B5FCCD0DE930CAC02 /* ISEmojiList_iOS10.plist in Resources */,
+				35C9B4C20B1F0E5E9BB8AE7180DE7138 /* ISEmojiList_iOS11.plist in Resources */,
+				EFCF4717326A0CD1E9161D8016C44C9D /* PageControlBottomView.xib in Resources */,
+				9534145B5C6C42DF15C8724AFC8BFDEF /* Views in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6129EAC06C5059192BA64BA2CE42B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1728559FC0B3B7CC791D4DD4EB682377 /* ISEmojiView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C75458BAC4A4120554A969515C433EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F1280488AA724F7E6A871720D94BFB /* Bundle.swift in Sources */,
+				B185D2739E39415031299EF95CE32D7C /* CategoriesBottomView.swift in Sources */,
+				DA6C693329346530751949A648540F4E /* Category.swift in Sources */,
+				7F92E8F5C51531738149979C2F8E3B3B /* CategoryCell.swift in Sources */,
+				41D412A7A897E692DEBCA6ACBAD5A8D2 /* Constants.swift in Sources */,
+				E5A4AB5B225AE7D7A1A60CC487C26332 /* Emoji.swift in Sources */,
+				B782476F7A3512F5F761AB54F0DC3729 /* EmojiCategory.swift in Sources */,
+				FF17943AFA1C6CD73E4CA81677AE9E1F /* EmojiCollectionCell.swift in Sources */,
+				92E763CED325EFB8AD2990DB90BD2DE8 /* EmojiCollectionView.swift in Sources */,
+				DE3DB6AC1B210982F1E38DB45C4820C2 /* EmojiLoader.swift in Sources */,
+				41745463C45AE3D150ADB129153C9533 /* EmojiPopView.swift in Sources */,
+				18219B93B802365E3E0CC5020F8FBE6D /* EmojiView.swift in Sources */,
+				602A25D65B323F302AE598F02BC409D7 /* ISEmojiView-dummy.m in Sources */,
+				B530C8ABF16258D6277908C6F2366E16 /* KeyboardSettings.swift in Sources */,
+				4EBC67FE5F7F690F6454997C5479C2B7 /* PageControlBottomView.swift in Sources */,
+				3F994B0FAC7AD28086221054CE8B9C87 /* RecentEmojisManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35BD60603EEC373A0331DF02207F05A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68D9D95EFBB021C7445D353CB55148FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D052331856FC11EA98A08BF0B1DCDC5 /* Pods-CommentTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45640E9E1D807A44F168183DE517F97F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ISEmojiView-ISEmojiView";
+			target = B638CEEAF1B992479ACE12618DB82603 /* ISEmojiView-ISEmojiView */;
+			targetProxy = 18DFE233D3F7D1A3F28A31DC35C6CE96 /* PBXContainerItemProxy */;
+		};
+		84EDEF9ABCB0D8B45FF5D7BEDA7FFB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISEmojiView;
+			target = B37CC13C3A41A42A9CDA6684CE5BD73B /* ISEmojiView */;
+			targetProxy = F330C0C1147D74D3F7F8CDE679971C62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19E92C403957D917BEF91D619CD4E11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ISEmojiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ISEmojiView/ISEmojiView.modulemap";
+				PRODUCT_MODULE_NAME = ISEmojiView;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E83951A7A336DA555DEDE9BB4DFFB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A26BA10240BF21AF190A35356581E78 /* Pods-CommentTools.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommentTools/Pods-CommentTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommentTools/Pods-CommentTools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CAEA43A798124E7DF50A36503A393CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				IBSC_MODULE = ISEmojiView;
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E178CFC3A5655A3B61BFE9B629B50506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6DDEF88421F09AE3F13E547CBA3F01 /* Pods-CommentTools.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CommentTools/Pods-CommentTools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommentTools/Pods-CommentTools.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF077C110A5278C639756305934BEFC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ISEmojiView/ISEmojiView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ISEmojiView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ISEmojiView/ISEmojiView.modulemap";
+				PRODUCT_MODULE_NAME = ISEmojiView;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A85D3CD7326FA6520230E68DD8CFAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF895EB2B1E766D9E98B792FD09AF628 /* ISEmojiView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ISEmojiView";
+				IBSC_MODULE = ISEmojiView;
+				INFOPLIST_FILE = "Target Support Files/ISEmojiView/ResourceBundle-ISEmojiView-ISEmojiView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ISEmojiView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333B42D6F63A8CE3E7737D6BA0907E72 /* Build configuration list for PBXNativeTarget "ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E92C403957D917BEF91D619CD4E11E /* Debug */,
+				EF077C110A5278C639756305934BEFC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC268474BA28ACCC77002F2F7D919B63 /* Build configuration list for PBXNativeTarget "Pods-CommentTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E178CFC3A5655A3B61BFE9B629B50506 /* Debug */,
+				2E83951A7A336DA555DEDE9BB4DFFB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B09F5D445B43FA1D38BDEE1BD9A0C2DD /* Build configuration list for PBXNativeTarget "ISEmojiView-ISEmojiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEA43A798124E7DF50A36503A393CA /* Debug */,
+				F3A85D3CD7326FA6520230E68DD8CFAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
